@@ -1,0 +1,263 @@
+.Sidebar-Logo{
+    width: 30%;
+    height: 100%;
+}
+
+.Title{
+    font-size: 100%;
+    font-weight: bold;
+    color: #1E1E1E;
+    text-align: center;
+    font-family: monospace;
+    padding-right: 10%;
+}
+
+
+.Sidebar-top {
+    width: 100%;
+    height: 10%;
+    background-color: #1992d4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 24px;
+    padding-top: 20px;
+}
+
+.Sidebar {
+    width: 15%;
+    min-width: 220px;
+    height: 100vh;
+    background-color: #1992d4;
+    display: flex;
+    flex-direction: column;
+}
+
+.Sidebar-content-top {
+    width: 100%;
+    height: 35%;
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Sidebar-content-bottom {
+    width: 100%;
+    height: 20%;
+    margin-top: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    list-style-type: none;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+li img {
+    width: 20px;
+    height: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #1E1E1E;
+    font-family: monospace;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+.Main-body {
+    width: 85%;
+    height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+}
+
+
+.First-row-main-body {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.Second-row-main-body {
+    width: 100%;
+    height: 10%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.Search-icon {
+    width: 20px;
+    height: 20px;
+    margin: 25px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.Bell-icon {
+    width: 20px;
+    height: 20px;
+    margin: 25px;
+    margin-left: 18%;
+    margin-right: 0;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.Profile-icon {
+    width: 50px;
+    height: 50px;
+    margin: 25px;
+    cursor: pointer;
+}
+
+.Profile-icon1 {
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    cursor: pointer;
+}
+
+
+.Search-input {
+    width: 50%;
+    height: 30px;
+    border: 5px solid #E2E8F0;
+    border-radius: 15px;
+    padding-left: 10px;
+    font-size: 14px;
+    font-family: monospace;
+    background-color: #E2E8F0;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1E1E1E;
+    font-family: monospace;
+}
+
+h3 {
+    font-size: 12px;
+    font-weight: bold;
+    color: #1E1E1E;
+    font-family: monospace;
+    padding-left: 10px;
+}
+
+.Top-Buttons {
+    width: 110px;
+    height: 60%;
+    border-radius: 20px;
+    border-color: #1992d4;
+    background-color: #1992d4;
+    font-style: monospace;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 1%;
+}
+
+.Bottom-Buttons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.Bottom-Buttons {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.Small-div {
+    margin-right: 47%;
+}
+
+.Main-body-projects {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 2%;
+    background-color: #E2E8F0;
+}
+
+.Left-side {
+    margin: 1%;
+    margin-right: 8%;
+}
+
+.Right-side {
+    margin: 1%;
+    margin-left: 1%;
+    width: 10%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 450px 450px;
+    grid-template-rows: 150px 150px 150px;
+    gap: 10px;
+    margin-left: 10%;
+}
+
+.container > div {
+    border: 5px solid rgb(255, 255, 255);
+    border-left-color: #F0B429;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.anouncement {
+    display: grid;
+    grid-template-columns: 260px;
+    grid-template-rows: 70px 70px 70px;
+}
+
+.anouncement > div {
+    border-bottom: 1px solid rgb(0, 0, 0);
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.description {
+    font-size: 10px;
+    font-family: monospace;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.description1 {
+    font-size: 9px;
+    font-family: monospace;
+    padding-left: 10px;
+    padding-right: 10px;
+}
